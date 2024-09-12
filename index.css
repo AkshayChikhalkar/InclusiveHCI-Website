@@ -72,7 +72,7 @@
 }
 
 .footer-footer {
-  background-color: var(--dl-color-scheme-black);
+  background-color: #182b19 /* var(--dl-color-scheme-black); */
 }
 .footer-max-width {
   align-items: flex-start;
@@ -314,7 +314,7 @@
   padding-top: var(--dl-space-space-fiveunits);
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/group%2029-1500w.png");
+  background-image: url("public/group%2029-1200w.png");
 }
 .home-container1 {
   flex-direction: column;
@@ -351,6 +351,8 @@
 .home-text010 {
   color: var(--dl-color-scheme-white);
   text-transform: none;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 2;
   text-align: justify;
 }
@@ -1215,6 +1217,29 @@ ul {
   border-width: 1px;
   flex-direction: column;
 }
+
+.home-container44 {
+  flex: 0 0 auto;
+  width: 0px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+}
+.home-container45 {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 100;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+}
 .home-container5 {
   flex: 0 0 auto;
   width: auto;
@@ -1223,6 +1248,7 @@ ul {
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
 }

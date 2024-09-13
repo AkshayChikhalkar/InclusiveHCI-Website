@@ -276,8 +276,8 @@
 }
 .home-text001 {
   color: var(--dl-color-scheme-pink);
-  font-size: 68px;
-  line-height: 2.5;
+  font-size: 70px;
+  line-height: 1.5;
 }
 .home-text002 {
   line-height: 2;
@@ -1166,7 +1166,7 @@ ul li::before {
   content: "•";
     font-size: 20px;
   /* Use a red bullet character */
-  color: red;
+  color: var(--dl-color-scheme-pink);
   /* Set the bullet color to red */
   margin-right: 1em;
   /* Add some space between the bullet and the text */
@@ -1323,6 +1323,19 @@ ul {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.home-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 100;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  justify-content: center;
+}
 .home-image1 {
   width: 200px;
   object-fit: cover;
@@ -1333,12 +1346,11 @@ ul {
   object-fit: cover;
 }
 .home-image200 {
-  width: 120px;
-  height:105px;
+  width: 200px;
   object-fit: cover;
 }
 .home-image3 {
-  height: 95px;
+  width: 200px;
   object-fit: cover;
 }
 .home-max-width6 {
@@ -1354,11 +1366,11 @@ ul {
   justify-content: space-between;
 }
 .home-image4 {
-  width: 250px;
+  width: 200px;
   object-fit: cover;
 }
 .home-image400 {
-  height: 90px;
+  width: 200px;
   object-fit: cover;
 }
 .home-image401 {
@@ -1366,15 +1378,15 @@ ul {
   object-fit: cover;
 }
 .home-image5 {
-  width: 150px;
+  width: 180px;
   object-fit: cover;
 }
 .home-image500 {
-  width: 250px;
+  width: 200px;
   object-fit: cover;
 }
 .home-image6 {
-  height: 110px;
+  width: 200px;
   object-fit: cover;
 }
 @media(max-width: 991px) {

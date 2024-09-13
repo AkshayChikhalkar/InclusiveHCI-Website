@@ -1324,7 +1324,7 @@ ul {
   justify-content: space-between;
 }
 .home-image1 {
-  height: 80px;
+  width: 200px;
   object-fit: cover;
 }
 .home-image2 {
@@ -1332,8 +1332,13 @@ ul {
   height: 90px;
   object-fit: cover;
 }
+.home-image200 {
+  width: 120px;
+  height:105px;
+  object-fit: cover;
+}
 .home-image3 {
-  height: 80px;
+  height: 95px;
   object-fit: cover;
 }
 .home-max-width6 {
@@ -1349,17 +1354,27 @@ ul {
   justify-content: space-between;
 }
 .home-image4 {
-  width: 306px;
-  height: 62px;
+  width: 250px;
+  object-fit: cover;
+}
+.home-image400 {
+  height: 90px;
+  object-fit: cover;
+}
+.home-image401 {
+  width: 200px;
   object-fit: cover;
 }
 .home-image5 {
-  height: 80px;
+  width: 150px;
+  object-fit: cover;
+}
+.home-image500 {
+  width: 250px;
   object-fit: cover;
 }
 .home-image6 {
-  width: 276px;
-  height: 66px;
+  height: 110px;
   object-fit: cover;
 }
 @media(max-width: 991px) {

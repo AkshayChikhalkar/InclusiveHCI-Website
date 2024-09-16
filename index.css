@@ -2022,3 +2022,9 @@ ul {
     justify-content: center;
   }
 }
+<style>.email-link {
+  color: blue;
+  /* Change 'blue' to any color you prefer */
+}
+
+</style>
